@@ -1,0 +1,34 @@
+@media (max-width:900px){
+    .menu{
+        display: none;
+    }
+    .iconmenu{
+        display: block;
+    }
+}
+@media (max-width:890px){
+    .contenedorslideinfo{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    main{
+        border: red solid 1px;
+        max-width: 100%;
+    }
+    .contenedorslide figure{
+        border: 1px white solid;
+        max-width: 100%;
+    }
+    .contenedorbotones{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .contenedorslideinfo span{
+        padding-left: 0px;
+    }
+}/*para movil simpre es 490px*/
